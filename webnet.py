@@ -2,7 +2,7 @@ import json
 import requests
 from websocket import create_connection
 
-r = requests.get("https://qbapi.stealthtrader.com/User/Auth/ft13@epcylon.com/test/hydra")
+r = requests.get("websocet")
 # print((r.json()))
 print((r.json()['token']))
 token=(r.json()['token'])
