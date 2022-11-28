@@ -6,7 +6,7 @@ r = requests.get("websocet")
 # print((r.json()))
 print((r.json()['token']))
 token=(r.json()['token'])
-message={ "quantBotUserId":"64a3a514-cdb6-46c9-91fd-94c0ffe2f73c", "token":token, "type":"Login"}
+message={ "quantBotUserId":"id", "token":token, "type":"Login"}
 send=json.dumps(message)
 # print(send)
 # print(type(send))
